@@ -4,12 +4,11 @@
       <div class="alert-header">
         <p>{{ title }}</p>
       </div>
-
       <div class="alert-body">
         <p>{{ msg }}</p>
       </div>
       <div class="alert-footer">
-        <button @click="close">확인</button>
+        <button @click="_close">확인</button>
       </div>
     </div>
   </div>
@@ -21,9 +20,11 @@ export default {
   props: {
     msg: { default: "Alert Content", type: String },
     title: { default: "Alert Title", type: String },
+    onClose: { default: () => {}, type: Function },
   },
   methods: {
-    close() {
+    _close() {
+      this.onClose();
       console.log("close");
       this.$destroy();
       this.$el.parentNode.removeChild(this.$el);

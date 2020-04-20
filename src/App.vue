@@ -12,16 +12,18 @@ var alertResult = await DisplayAlert(
 경고 쓰는 방법? Tdk 철자법 가이드에 따르면 경고의 철자는 무엇입니까? 경고를 별도로 또는 인접하게 작성해야합니까?
 "
     />
+    <Test />
   </div>
 </template>
 
 <script>
-import SimpleAlert from "./components/SimpleAlert";
+import { SimpleAlert, Test } from "./components";
 
 export default {
   name: "App",
   components: {
     SimpleAlert,
+    Test,
   },
 };
 </script>

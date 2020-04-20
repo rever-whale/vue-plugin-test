@@ -17,6 +17,7 @@
 
 <script>
 export default {
+  name: "SimpleAlert",
   props: {
     msg: { default: "Alert Content", type: String },
     title: { default: "Alert Title", type: String },

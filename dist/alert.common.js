@@ -768,14 +768,47 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var SimpleAlert = (component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"55a00bf7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Test.vue?vue&type=template&id=fd1765a6&
+var Testvue_type_template_id_fd1765a6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._v(" 나는 테스트다!!! ")])}
+var Testvue_type_template_id_fd1765a6_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Test.vue?vue&type=template&id=fd1765a6&
+
+// CONCATENATED MODULE: ./src/components/Test.vue
+
+var script = {}
+
+
+/* normalize component */
+
+var Test_component = normalizeComponent(
+  script,
+  Testvue_type_template_id_fd1765a6_render,
+  Testvue_type_template_id_fd1765a6_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var Test = (Test_component.exports);
+// CONCATENATED MODULE: ./src/components/index.js
+
+
+/* harmony default export */ var components = ({
+  SimpleAlert: SimpleAlert,
+  Test: Test
+});
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (SimpleAlert);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (components);
 
 
 
 /***/ })
 
-/******/ })["default"];
+/******/ });
 //# sourceMappingURL=alert.common.js.map

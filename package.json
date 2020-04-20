@@ -1,13 +1,13 @@
 {
-  "name": "cayde-alert",
+  "name": "@cayde/vue-component",
   "version": "0.1.1",
-  "main": "./dist/alert.common.js",
+  "main": "./dist/cayde-component.common.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-bundle": "vue-cli-service build --target lib --name alert ./src/components/index.js"
+    "build-bundle": "vue-cli-service build --target lib --name cayde-component ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",

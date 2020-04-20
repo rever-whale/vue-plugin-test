@@ -20,14 +20,17 @@ export default {
   props: {
     msg: { default: "Alert Content", type: String },
     title: { default: "Alert Title", type: String },
-    onClose: { default: () => {}, type: Function },
+    onClose: {
+      default: () => {
+        throw new Error("onClose의 정의가 필요합니다.");
+      },
+      type: Function,
+    },
   },
   methods: {
     _close() {
       this.onClose();
       console.log("close");
-      this.$destroy();
-      this.$el.parentNode.removeChild(this.$el);
     },
   },
 };

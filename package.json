@@ -42,5 +42,9 @@
   ],
   "files": [
     "dist/*.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rever-whale/vue-plugin-test"
+  }
 }

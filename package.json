@@ -1,5 +1,5 @@
 {
-  "name": "@cayde/vue-component",
+  "name": "cayde-vue-component",
   "version": "1.0.4",
   "main": "./dist/cayde-component.common.js",
   "private": false,

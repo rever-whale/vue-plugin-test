@@ -1,5 +1,5 @@
 {
-  "name": "js_plugin",
+  "name": "CaydeAlert",
   "version": "0.1.0",
   "main": "./dist/alert.common.js",
   "private": true,

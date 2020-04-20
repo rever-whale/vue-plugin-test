@@ -41,10 +41,6 @@
     "not dead"
   ],
   "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
+    "dist/*"
   ]
 }

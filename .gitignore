@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
-dist/
-.npmrc
+
+# for private install
+# dist/ 
 
 # local env files
 .env.local

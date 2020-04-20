@@ -1,11 +1,13 @@
 {
   "name": "js_plugin",
   "version": "0.1.0",
+  "main": "./dist/alert.common.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name alert ./src/components/SimpleAlert.vue"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -38,5 +40,12 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
   ]
 }

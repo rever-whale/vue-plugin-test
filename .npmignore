@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
-dist/
+src/
 .npmrc
+public/
 
 # local env files
 .env.local

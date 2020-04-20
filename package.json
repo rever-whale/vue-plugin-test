@@ -2,7 +2,9 @@
   "name": "@cayde/vue-component",
   "version": "1.0.4",
   "main": "./dist/cayde-component.common.js",
-  "private": true,
+  "private": false,
+  "author": "rever.whale",
+  "description": "simple vue component plugin test",
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
